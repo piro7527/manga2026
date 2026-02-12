@@ -50,9 +50,10 @@ description: 参照漫画のスタイルを基に4コマ漫画を作成するス
 ```
 Japanese 4-koma manga panel, black and white ink drawing, simple clean lines, minimal detail.
 Characters: anthropomorphic cats standing on two legs.
-- Gray cat: main character, lazy/tired expression, slightly slouched posture
-- White cat: supporting character, deadpan/cool expression, calm posture
-Style: manga pen and ink, thick panel borders, speech bubbles with Japanese text.
+- Grey cat (Gure-nyan): main character, lazy/tired expression, slightly slouched posture.
+- White cat (Shiro-nyan): supporting character, deadpan/cool expression, calm posture.
+Style: manga pen and ink, thick panel borders, speech bubbles with MEANINGLESS SYMBOLS (e.g. "@#$%", "?!", "...") instead of text.
+Setting: A room with a professional treatment bed (massage table).
 [コマ固有の内容をここに追記]
 ```
 
@@ -69,7 +70,7 @@ Style: manga pen and ink, thick panel borders, speech bubbles with Japanese text
 
 ### 灰色猫（グレにゃん）
 - **性格**: けだるい、面倒くさがり、でも共感されるキャラ
-- **外見**: 灰色の体、半開きの目、リュックを背負っていることが多い
+- **外見**: 灰色の体（トーン貼り）、半開きの目、リュックを背負っていることが多い
 - **役割**: 主人公。日常のあるあるを体現する
 
 ### 白猫（シロにゃん）
