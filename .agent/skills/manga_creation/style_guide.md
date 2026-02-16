@@ -23,7 +23,7 @@
 ### 吹き出し
 - **通常セリフ**: 丸型の吹き出し、尾は話者方向へ
 - **モノローグ/心の声**: 雲型（もくもく）吹き出し
-- **テキスト**: 手書き風フォント、日本語
+- **テキスト**: 意味不明な手書き風の記号・線（言語的な意味を持たせない）
 - **効果音**: 吹き出し外にフリーハンド文字
 
 ### キャラクター描写
@@ -31,6 +31,10 @@
 - **体型**: 丸みのあるシンプルな体
 - **表情**: 目と眉で表現（口は小さめ）
 - **ポーズ**: 直立二足歩行、人間的な動作
+
+### タイトル・配置
+- **タイトル位置**: 4コマ目の内部または枠外下部
+- **フォント**: 手書き風またはコミックフォント
 
 ## generate_image プロンプト構成
 
@@ -71,12 +75,12 @@ sometimes holding a laptop or tablet device.
 ### 吹き出し指定
 
 ```
-Speech bubble containing [日本語テキスト], rounded oval shape with tail pointing to speaker.
+Speech bubble containing meaningless scribbles and symbols (no real text), rounded oval shape with tail pointing to speaker.
 ```
 
 または心の声の場合：
 ```
-Thought cloud bubble containing [日本語テキスト], cloud-shaped with small circles leading to thinker.
+Thought cloud bubble containing meaningless scribbles and symbols, cloud-shaped with small circles leading to thinker.
 ```
 
 ## 品質チェックリスト

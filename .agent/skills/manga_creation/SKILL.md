@@ -52,7 +52,7 @@ Japanese 4-koma manga panel, black and white ink drawing, simple clean lines, mi
 Characters: anthropomorphic cats standing on two legs.
 - Grey cat (Gure-nyan): main character, lazy/tired expression, slightly slouched posture.
 - White cat (Shiro-nyan): supporting character, deadpan/cool expression, calm posture.
-Style: manga pen and ink, thick panel borders, speech bubbles with MEANINGLESS SYMBOLS (e.g. "@#$%", "?!", "...") instead of text.
+Style: manga pen and ink, thick panel borders, speech bubbles with MEANINGLESS HANDWRITTEN-STYLE SYMBOLS (e.g. "@#$%", "?!", "~~~~") instead of text.
 Setting: A room with a professional treatment bed (massage table).
 [コマ固有の内容をここに追記]
 ```
@@ -60,7 +60,7 @@ Setting: A room with a professional treatment bed (massage table).
 **画像生成の手順：**
 1. 参照画像 `/Users/aoyamahiroki/Desktop/manga2026/20260208degital_text.png` を `ImagePaths` に指定してスタイルを参照させる
 2. 各コマを個別に生成（panel_1, panel_2, panel_3, panel_4）
-3. 最後に4コマを1枚にまとめた縦長画像を生成
+3. 最後に4コマを1枚にまとめた縦長画像を生成（タイトルは4コマ目に入れること）
 
 ### Step 4: 出力
 - 各コマ画像と完成版を `output/` ディレクトリに保存
@@ -87,4 +87,5 @@ Setting: A room with a professional treatment bed (massage table).
 - 背景はシンプル（必要最小限の線）
 - 吹き出しは丸型、モノローグは雲型
 - コマ枠は太い黒線
-- テキストは日本語
+- テキストは意味不明な手書き風記号
+- タイトルは4コマ目に配置
