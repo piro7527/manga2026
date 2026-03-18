@@ -1,0 +1,13 @@
+# 生成された画像ファイルをGitの管理対象外にする
+output/*.png
+output/*.jpg
+!output/*_final*.png
+
+# ルートディレクトリにある生成されたテスト用画像なども除外
+*manga_strip*.png
+
+# ただし、スタイルの参照用画像はGitに含める（必要に応じて）
+!20260208degital_text.png
+
+# macOSのシステムファイル
+.DS_Store
